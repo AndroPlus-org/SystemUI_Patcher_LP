@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_description">Mod SystemUI.apk Xperia içindir.Ayarları yapılandırmak için buraya dokunun.</string>
+    <string name="statusbar">" AndroPlus
+Next→
+Phrase in English
+Statusbar
+
+Vote up the good Türkçe translation
+Durum Çubuğu
+Placeholders:
+
+ Done
+Translation site by OneSky: Desktop version | Sign out jarrettjohn8
+
+×
+We need your attention!
+Cancel Yes"</string>
+    <string name="label_brigi">Durum çubuğu simgesini aydınlatın</string>
+    <string name="sum_brigi">Otomatik karartmayı devre dışı bırak</string>
+    <string name="label_bigi">Durum çubuğu ikonlarını büyüt</string>
+    <string name="sum_bigi">Otomatik karartmayı devre dışı bırak</string>
+    <string name="quick">Bildirim &#38; Hızlı Ayarlar</string>
+    <string name="label_tranz144">Hızlı ayarları değiştir.</string>
+</resources>

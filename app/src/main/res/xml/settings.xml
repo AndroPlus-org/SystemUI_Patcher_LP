@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    	<Preference android:title="@string/label_rebootaf" android:key="mess" android:summary="@string/nosum" style="?android:preferenceInformationStyle" />
+    	<PreferenceCategory
+	android:key="status_category"
+	android:title="@string/statusbar" >
+	</PreferenceCategory>
+	    <CheckBoxPreference
+	    android:key="key_brigi"
+	    android:title="@string/label_brigi"
+	    android:summary="@string/sum_brigi"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_bigi"
+	    android:title="@string/label_bigi"
+	    android:summary="@string/sum_bigi"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_nosim"
+	    android:title="@string/label_nosim"
+	    android:summary="@string/sum_nosim"
+	    android:defaultValue="false" />
+	    
+	    <PreferenceCategory
+	android:key="quick_category"
+	android:title="@string/quick" >
+	</PreferenceCategory>
+	    <CheckBoxPreference
+	    android:key="key_numcol"
+	    android:title="@string/label_numcol"
+	    android:summary="@string/sum_numcol"
+	    android:defaultValue="false" />
+	    <EditTextPreference 
+	    android:defaultValue="3" 
+	    android:key="list_key_numcol" 
+	    android:title="@string/list_title_numcol"
+	    android:summary="@string/list_summary_numcol"
+	    android:dialogTitle="@string/list_dialogtitle_numcol"
+	    android:dependency="key_numcol"
+	    android:inputType="number"
+	    />
+	    <CheckBoxPreference
+	    android:key="key_numrow"
+	    android:title="@string/label_tranz144"
+	    android:summary="@string/sum_tranz144"
+	    android:defaultValue="false" />
+	    <EditTextPreference 
+	    android:defaultValue="4" 
+	    android:key="list_key" 
+	    android:title="@string/list_title"
+	    android:summary="@string/list_summary"
+	    android:dialogTitle="@string/list_dialogtitle"
+	    android:dependency="key_numrow"
+	    android:inputType="number"
+	    />
+	    
+	<PreferenceCategory
+	android:key="recent_category"
+	android:title="@string/recent" >
+	</PreferenceCategory>
+	    <CheckBoxPreference
+	    android:key="key_closeall"
+	    android:title="@string/label_closeall"
+	    android:summary="@string/sum_closeall"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_mvcloseall"
+	    android:title="@string/label_mvcloseall"
+	    android:summary="@string/sum_mvcloseall"
+	    android:defaultValue="false" />
+	    <CheckBoxPreference
+	    android:key="key_nosearchbar"
+	    android:title="@string/label_nosearchbar"
+	    android:summary="@string/sum_nosearchbar"
+	    android:defaultValue="false" />
+	    
+	<PreferenceCategory
+	android:key="misc_category"
+	android:title="@string/misc" >
+	</PreferenceCategory>
+	<CheckBoxPreference
+	    android:key="key_fullalert"
+	    android:title="@string/label_fullalert"
+	    android:summary="@string/sum_fullalert"
+	    android:defaultValue="false" />
+	    <EditTextPreference 
+	    android:defaultValue="100" 
+	    android:key="key_fullalert_et" 
+	    android:title="@string/fullalert_title"
+	    android:summary="@string/fullalert_summary"
+	    android:dependency="key_fullalert"
+	    android:inputType="number"
+	    android:maxLength="3"
+	    />
+	    
+	
+	<Preference android:key="mes" android:title="@string/app_name" android:summary="@string/mesum">
+            <intent android:action="android.intent.action.VIEW"
+             android:data="http://androplus.kagome-kagome.com/" />
+        </Preference>
+        
+</PreferenceScreen>

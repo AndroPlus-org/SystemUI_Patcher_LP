@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_description">让Xperia的SystemUI.apk增强,点击这里进行设置</string>
+    <string name="statusbar">状态栏</string>
+    <string name="label_brigi">亮度状态栏图标</string>
+    <string name="sum_brigi">禁用自动亮度调节</string>
+    <string name="label_bigi">放大状态栏图标</string>
+    <string name="sum_bigi">禁用自动亮度调节</string>
+    <string name="label_nosim">隐藏无SIM卡图标</string>
+    <string name="sum_nosim">当您没有插入SIM卡时将隐藏无SIM卡图标</string>
+    <string name="quick">通知栏&#38;快速设置</string>
+    <string name="label_tranz144">更改快速设置</string>
+    <string name="sum_tranz144">更改磁砖排列和无限项目在快速设置数量</string>
+    <string name="misc">Misc</string>
+    <string name="label_fullalert">更改电池充满警告级别</string>
+    <string name="sum_fullalert">更改电池充满警报需选中“电池充满后播放声音”辅助功能设置</string>
+    <string name="fullalert_title">电量级别(0 - 100)</string>
+    <string name="fullalert_summary">默认值是100(完全充满)</string>
+    <string name="label_rebootaf">注意</string>
+    <string name="nosum">您可能需要重新启动以使更改生效</string>
+    <string name="mesum">"@WedyDQ10"</string>
+    <string name="list_title">磁砖数量</string>
+    <string name="list_summary">设置快速设置磁砖单排显示数量,需要先启用更改快速设置</string>
+    <string name="list_dialogtitle">数量</string>
+</resources>

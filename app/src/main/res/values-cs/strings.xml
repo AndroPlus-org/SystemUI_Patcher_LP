@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_description">úprava SystemUI.apk pro telefon Xperia. Klikněte zde pro nastavení.</string>
+    <string name="statusbar">Stavový lišta</string>
+    <string name="sum_brigi">Vypnout automatické ztmavování.</string>
+    <string name="label_bigi">Anglicky</string>
+    <string name="sum_bigi">Anglicky</string>
+    <string name="label_nosim">Skrýt ikonu Žádná SIM</string>
+    <string name="sum_nosim">Skrýt ikonu Žádná SIM pokud nemáte SIM kartu vloženou.</string>
+    <string name="label_tranz144">Změnit rychlá nastavení</string>
+    <string name="misc">Různé</string>
+    <string name="fullalert_title">Úroveň baterie (0 - 100)</string>
+    <string name="fullalert_summary">Výchozí hodnota je 100 (plně nabito)</string>
+    <string name="label_rebootaf">Poznámka</string>
+    <string name="nosum">Možná budete muset restartovat zařízení, aby se změny projevily.</string>
+    <string name="list_title">Počet dlaždic</string>
+</resources>

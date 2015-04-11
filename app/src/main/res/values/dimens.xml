@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <item type="dimen" name="status_bar_icon_drawing_alpha">100%</item>
+    <dimen name="status_bar_icon_drawing_size">21dip</dimen>
+    <dimen name="close_all_button_layout_margin_top">510.0dip</dimen>
+    
+</resources>
