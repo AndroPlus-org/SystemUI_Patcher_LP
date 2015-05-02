@@ -21,7 +21,7 @@ import de.robv.android.xposed.callbacks.XC_LayoutInflated;
 import de.robv.android.xposed.callbacks.XC_LoadPackage.LoadPackageParam;
 
 public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHookInitPackageResources, IXposedHookLoadPackage {
-	private static XSharedPreferences preference = null;
+	public XSharedPreferences preference;
 	private static String MODULE_PATH = null;
 	
 	@Override
@@ -33,7 +33,7 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 	@Override
 	public void handleInitPackageResources(InitPackageResourcesParam resparam) throws Throwable {
 		// For Change the number of tiles in a columns
-		String scol = preference.getString("list_key_numcol", "3");
+		String scol = preference.getString("list_key_numcol", "4");
 		int icol = Integer.parseInt(scol);
 		// For Change the number of tiles in a row
 		String srow = preference.getString("list_key", "4");
@@ -123,7 +123,7 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 			XposedBridge.log(t.getMessage());
 		}
 		}
-	
+
 	// Hide No SIM icon
 	boolean isNosim = preference.getBoolean("key_nosim", false);
 	if(isNosim){
