@@ -18,7 +18,6 @@
     <string name="fullalert_summary">Valor por omissão é 100 (carga total)</string>
     <string name="label_rebootaf">Nota</string>
     <string name="nosum">Pode ser necessário reiniciar para as alterações funcionarem.</string>
-    <string name="mesum">"@WedyDQ10"</string>
     <string name="list_title">Número de ícones</string>
     <string name="list_summary">Especificar o número a mostrar de ícones numa linha de definições rápidas. Ativar a alteração das definições rápidas primeiro.</string>
     <string name="list_dialogtitle">Número</string>

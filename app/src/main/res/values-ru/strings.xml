@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_description">Ui</string>
+    <string name="app_description">Мод SystemUI для устройств Xperia. Нажмите сюда, чтобы выполнить настройку.</string>
+    <string name="statusbar">Статусбар</string>
+    <string name="sum_bigi">Отключить автоматическое затемнение.</string>
+    <string name="label_nosim">Скрыть иконку отсутствия SIM</string>
+    <string name="sum_nosim">Скрыть иконку отсутствие SIM-карты когда у вас нет SIM-карты</string>
+    <string name="quick">Уведомление &#38; Быстрые настройки</string>
+    <string name="label_tranz144">Изменить число строк</string>
+    <string name="label_numcol">Изменить число колонок</string>
+    <string name="sum_numcol">Изменить число колонок</string>
+    <string name="misc">Разное</string>
+    <string name="fullalert_title">Уровень батареи (0 - 100)</string>
+    <string name="fullalert_summary">Значение по умолчанию 100 (полностью заряжено)</string>
+    <string name="recent">Недавние</string>
+    <string name="label_closeall">Показать кнопку \"Закрыть всё\"</string>
+    <string name="sum_closeall">Включить кнопку \"Закрыть всё\" в панели недавних приложений.</string>
+    <string name="label_nosearchbar">Скрыть виджет поиска</string>
+    <string name="sum_nosearchbar">Скрыть виджет поиска в панели недавних приложений.</string>
+    <string name="label_rebootaf">Заметка</string>
+    <string name="nosum">Вам может понадобиться выполнить перезагрузку, чтобы изменения вступили в силу.</string>
+    <string name="list_dialogtitle">Номер</string>
+    <string name="list_dialogtitle_numcol">Номер</string>
 </resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_description">엑스페리아를 위한 SystemUI.apk 모드 입니다. 여기를 눌러 설정을 변경합니다.</string>
+    <string name="statusbar">상태 바</string>
+    <string name="label_brigi">밝은 상태 바 아이콘 사용</string>
+    <string name="sum_brigi">자동 밝기 조절 비활성화.</string>
+    <string name="label_bigi">더 큰 상태 바 아이콘 사용</string>
+    <string name="sum_bigi">자동 밝기 조절 비활성화.</string>
+    <string name="label_nosim">유심 카드 없음 아이콘 숨기기</string>
+    <string name="sum_nosim">유심 카드가 없을 때 유심 카드 없음 아이콘을 숨깁니다.</string>
+    <string name="quick">알림 &#38; 퀵 세팅</string>
+    <string name="label_tranz144">열의 개수 변경</string>
+    <string name="sum_tranz144">열의 개수와 퀵 세팅에 무한적인 항목의 개수를 변경합니다.</string>
+    <string name="label_numcol">아이콘 개수 설정</string>
+    <string name="sum_numcol">아이콘의 개수를 설정합니다.</string>
+    <string name="misc">기타</string>
+    <string name="label_fullalert">배터리 충전완료 알림 수치 변경</string>
+    <string name="sum_fullalert">배터리 충전완료 알림에 대한 배터리 수치를 변경합니다. 접근성 설정에서 \"배터리 충전완료 시 소리 재생\"에 체크하세요.</string>
+    <string name="fullalert_title">배터리 수치 (0 - 100)</string>
+    <string name="fullalert_summary">기본 값은 100입니다. (충전 완료)</string>
+    <string name="recent">최근 앱 목록</string>
+    <string name="label_closeall">모두 닫기 버튼 추가</string>
+    <string name="sum_closeall">최근 앱 목록에 모두 닫기 버튼을 추가합니다.</string>
+    <string name="label_nosearchbar">검색 위젯 숨기기</string>
+    <string name="sum_nosearchbar">최근 앱 목록에 검색 위젯을 숨깁니다.</string>
+    <string name="label_rebootaf">공지사항</string>
+    <string name="nosum">변경된 설정을 반영하기 위해서 재부팅이 필요합니다.</string>
+    <string name="list_title">열의 개수</string>
+    <string name="list_summary">퀵 세팅에 열의 개수를 설정합니다. 기본 값은 4입니다.</string>
+    <string name="list_dialogtitle">개수</string>
+    <string name="list_title_numcol">아이콘 개수</string>
+    <string name="list_summary_numcol">퀵 세팅에 아이콘 개수를 설정합니다. 기본 값은 3입니다.</string>
+    <string name="list_dialogtitle_numcol">개수</string>
+    <string name="label_nodismiss">모두 지우기 버튼 비활성화</string>
+    <string name="sum_nodismiss">알림 바에 모두 지우기 버튼을 비활성화 합니다.</string>
+</resources>

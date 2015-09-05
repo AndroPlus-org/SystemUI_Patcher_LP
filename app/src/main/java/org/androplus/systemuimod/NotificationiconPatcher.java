@@ -4,11 +4,7 @@ import android.content.res.XModuleResources;
 import android.content.res.XResources.DimensionReplacement;
 import android.util.TypedValue;
 import android.view.View;
-import android.view.ViewGroup;
-import android.view.ViewGroup.LayoutParams;
-import android.widget.FrameLayout;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
+
 import de.robv.android.xposed.IXposedHookInitPackageResources;
 import de.robv.android.xposed.IXposedHookLoadPackage;
 import de.robv.android.xposed.IXposedHookZygoteInit;
@@ -32,19 +28,24 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 
 	@Override
 	public void handleInitPackageResources(InitPackageResourcesParam resparam) throws Throwable {
-		// For Change the number of tiles in a columns
+		// For change the number of tiles in a columns
 		String scol = preference.getString("list_key_numcol", "4");
 		int icol = Integer.parseInt(scol);
-		// For Change the number of tiles in a row
+		// For change the number of tiles in a row
 		String srow = preference.getString("list_key", "4");
 		int irow = Integer.parseInt(srow);
-		// Change battery charged alert level
+		// For change battery charged alert level
 		String sbl = preference.getString("key_fullalert_et", "100");
 		int ibl = Integer.parseInt(sbl);
+		// For change notification drawer width
+		float width_drawer = Float.parseFloat(preference.getString("key_wide_notification_drawer_i", "620.0"));
+		// For change quick Settings tile text size
+		float qs_txtsize = Float.parseFloat(preference.getString("key_quick_settings_tile_text_size_i", "12.0"));
 		
-		if (!resparam.packageName.equals("com.android.systemui"))
+		if (!(resparam.packageName.equals("com.android.systemui")||resparam.packageName.equals("com.sonymobile.keyboardlauncher")))
 			return;
 
+		if (resparam.packageName.equals("com.android.systemui")){
 		XModuleResources modRes = XModuleResources.createInstance(MODULE_PATH, resparam.res);
 
 		// Brighten status bar icon
@@ -90,14 +91,63 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 
 		}
 		
-		// Move Close All button
-		boolean isMvcloseall = preference.getBoolean("key_mvcloseall", false);
-		if(isMvcloseall){
-			resparam.res.setReplacement("com.android.systemui", "drawable", "somc_close_all_background", modRes.fwd(R.drawable.ic_close_all));
-			resparam.res.setReplacement("com.android.systemui", "dimen", "close_all_button_layout_margin_top", modRes.fwd(R.dimen.close_all_button_layout_margin_top));
-			resparam.res.setReplacement("com.android.systemui", "string", "close_all_apps_button_text", "");
+		// Wide notification drawer
+		boolean isWidedrawer = preference.getBoolean("key_wide_notification_drawer", false);
+		if(isWidedrawer){
+			resparam.res.setReplacement("com.android.systemui", "dimen", "notification_panel_width", new DimensionReplacement(width_drawer,TypedValue.COMPLEX_UNIT_DIP));
 
 		}
+		
+		// Quick Settings tile text size
+		boolean isQstxt = preference.getBoolean("key_quick_settings_tile_text_size", false);
+		if(isQstxt){
+			resparam.res.setReplacement("com.android.systemui", "dimen", "qs_tile_text_size", new DimensionReplacement(qs_txtsize,TypedValue.COMPLEX_UNIT_SP));
+
+		}
+		
+		// Disable dismiss all button
+		boolean isNodismiss = preference.getBoolean("key_nodismiss", false);
+
+		if(isNodismiss){
+			/*resparam.res.setReplacement("com.android.systemui", "drawable", "ic_dismiss_all", new XResources.DrawableLoader()
+			        {
+			            @Override
+			            public Drawable newDrawable(XResources res, int id) throws Throwable
+			            {
+			                return new ColorDrawable(Color.TRANSPARENT);
+			            };
+			        });*/
+			resparam.res.hookLayout("com.android.systemui", "layout", "status_bar_notification_dismiss_all", new XC_LayoutInflated() {
+		                @Override
+		                public void handleLayoutInflated(LayoutInflatedParam liparam) throws Throwable {
+		                    liparam.view.findViewById(liparam.res.getIdentifier("dismiss_text", "id", "com.android.systemui")).setVisibility(View.GONE);
+		                    liparam.view.findViewById(liparam.res.getIdentifier("dismiss_text", "id", "com.android.systemui")).getLayoutParams().height = 0;
+		                }
+		            });
+		            
+		}
+		
+		}//End
+		
+		// KeyboardLauncher
+		if (resparam.packageName.equals("com.sonymobile.keyboardlauncher")){
+		XModuleResources modRes = XModuleResources.createInstance(MODULE_PATH, resparam.res);
+
+		// Hide unneeded thumbnail
+		boolean isHthumb = preference.getBoolean("key_hide_thumb_keyboard_launcher", false);
+
+		if(isHthumb){
+			try {
+			resparam.res.setReplacement("com.sonymobile.keyboardlauncher", "dimen", "lifestyle_back_icn_height", modRes.fwd(R.dimen.lifestyle_back_icn_height));
+			resparam.res.setReplacement("com.sonymobile.keyboardlauncher", "dimen", "thumbnail_view_height", modRes.fwd(R.dimen.thumbnail_view_height));
+			resparam.res.setReplacement("com.sonymobile.keyboardlauncher", "dimen", "thumbnail_capture_height", modRes.fwd(R.dimen.thumbnail_capture_height));
+			resparam.res.setReplacement("com.sonymobile.keyboardlauncher", "drawable", "kasumi_lifestyle_back_icn", 0x00000000);
+			} catch (Throwable t) {
+			XposedBridge.log(t.getMessage());
+			}
+		}
+
+		}//End
 		
 	}
 

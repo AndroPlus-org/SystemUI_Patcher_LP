@@ -9,17 +9,27 @@
     <string name="label_nosim">Ocultar icono de No SIM</string>
     <string name="sum_nosim">Ocultar icono de No SIM cuando no haya una SIM.</string>
     <string name="quick">Notificación &#38; Ajustes Rápidos</string>
-    <string name="label_tranz144">Cambiar ajustes rápidos</string>
+    <string name="label_tranz144">Cambiar el número de filas</string>
     <string name="sum_tranz144">Cambiar el número de elementos por columna e ítems ilimitados en ajustes rápidos.</string>
-    <string name="misc">Miscelania</string>
+    <string name="label_numcol">"Cambiar el número de columnas. "</string>
+    <string name="sum_numcol">"Cambiar el número de columnas. "</string>
+    <string name="misc">Otra información</string>
     <string name="label_fullalert">Cambiar el nivel de alerta cuando la batería esté cargada</string>
     <string name="sum_fullalert">Cambiar el nivel de batería para la alerta cuando la batería esté cargada. Selecciona \"Reproducir sonido cuando la batería este cargada\" en Ajustes de accesibilidad.</string>
     <string name="fullalert_title">Nivel de bateria (0 - 100)</string>
     <string name="fullalert_summary">El valor por defecto es 100 (Completamente cargada)</string>
+    <string name="recent">Reciente</string>
+    <string name="label_closeall">Mostrar boton de \"Cerrar todo\"</string>
+    <string name="sum_closeall">Habilitar el boton de \"Cerrar todo\" en el panel de recientes.</string>
+    <string name="label_nosearchbar">Ocultar search widget (widget de búsqueda).</string>
+    <string name="sum_nosearchbar">"Ocultar search widget(widget de busqueda) del panel de recientes. "</string>
     <string name="label_rebootaf">Nota</string>
     <string name="nosum">Necesita reiniciar para que los cambios tengan efecto.</string>
-    <string name="mesum">"@WedyDQ10"</string>
     <string name="list_title">Número de elementos</string>
-    <string name="list_summary">Especifica el número de elementos a mostrar por columna en los ajustes rápidos. Habilitar primero Cambiar ajustes rápidos.</string>
+    <string name="list_summary">Especifica el número de elementos a mostrar por columna en los ajustes rápidos.Por defecto 4.</string>
     <string name="list_dialogtitle">Número</string>
+    <string name="list_title_numcol">"Número de columnas. "</string>
+    <string name="list_summary_numcol">Especifique el número de columnas de ajustes rápidos.
+Por defecto es 3.</string>
+    <string name="list_dialogtitle_numcol">"Número. "</string>
 </resources>

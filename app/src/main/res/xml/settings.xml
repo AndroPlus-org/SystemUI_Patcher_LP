@@ -53,6 +53,38 @@
 	    android:dependency="key_numrow"
 	    android:inputType="number"
 	    />
+	    <CheckBoxPreference
+	    android:key="key_nodismiss"
+	    android:title="@string/label_nodismiss"
+	    android:summary="@string/sum_nodismiss"
+	    android:defaultValue="false" />
+	    
+	    <CheckBoxPreference
+	    android:key="key_wide_notification_drawer"
+	    android:title="@string/label_wide_notification_drawer"
+	    android:summary="@string/sum_wide_notification_drawer"
+	    android:defaultValue="false" />
+	    <EditTextPreference 
+	    android:defaultValue="620.0" 
+	    android:key="key_wide_notification_drawer_i" 
+	    android:title="@string/label_wide_notification_drawer_i"
+	    android:summary="@string/sum_wide_notification_drawer_i"
+	    android:dependency="key_wide_notification_drawer"
+	    android:inputType="numberDecimal"
+	    />
+	    <CheckBoxPreference
+	    android:key="key_quick_settings_tile_text_size"
+	    android:title="@string/label_quick_settings_tile_text_size"
+	    android:summary="@string/sum_quick_settings_tile_text_size"
+	    android:defaultValue="false" />
+	    <EditTextPreference 
+	    android:defaultValue="12.0" 
+	    android:key="key_quick_settings_tile_text_size_i" 
+	    android:title="@string/label_quick_settings_tile_text_size_i"
+	    android:summary="@string/sum_quick_settings_tile_text_size_i"
+	    android:dependency="key_quick_settings_tile_text_size"
+	    android:inputType="numberDecimal"
+	    />
 	    
 	<PreferenceCategory
 	android:key="recent_category"
@@ -62,11 +94,6 @@
 	    android:key="key_closeall"
 	    android:title="@string/label_closeall"
 	    android:summary="@string/sum_closeall"
-	    android:defaultValue="false" />
-	    <CheckBoxPreference
-	    android:key="key_mvcloseall"
-	    android:title="@string/label_mvcloseall"
-	    android:summary="@string/sum_mvcloseall"
 	    android:defaultValue="false" />
 	    <CheckBoxPreference
 	    android:key="key_nosearchbar"
@@ -93,10 +120,15 @@
 	    android:maxLength="3"
 	    />
 	    
-	
+	    <CheckBoxPreference
+	    android:key="key_hide_thumb_keyboard_launcher"
+	    android:title="@string/label_hide_thumb_keyboard_launcher"
+	    android:summary="@string/sum_hide_thumb_keyboard_launcher"
+	    android:defaultValue="false" />
+
 	<Preference android:key="mes" android:title="@string/app_name" android:summary="@string/mesum">
             <intent android:action="android.intent.action.VIEW"
-             android:data="http://androplus.kagome-kagome.com/" />
+             android:data="https://androplus.org/" />
         </Preference>
         
 </PreferenceScreen>

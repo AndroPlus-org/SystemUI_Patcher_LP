@@ -18,7 +18,6 @@
     <string name="fullalert_summary">默认值是100(完全充满)</string>
     <string name="label_rebootaf">注意</string>
     <string name="nosum">您可能需要重新启动以使更改生效</string>
-    <string name="mesum">"@WedyDQ10"</string>
     <string name="list_title">磁砖数量</string>
     <string name="list_summary">设置快速设置磁砖单排显示数量,需要先启用更改快速设置</string>
     <string name="list_dialogtitle">数量</string>

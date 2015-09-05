@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_description">Mod SystemUI.apk pour Xperia. Appuyez ici pour configurer les paramètres.</string>
+    <string name="statusbar">Statusbar</string>
+    <string name="label_brigi">Illuminez la barre d\'état icône</string>
+    <string name="sum_brigi">Désactiver gradation automatique.</string>
+    <string name="label_bigi">Agrandir la barre d\'état icône</string>
+    <string name="sum_bigi">Désactiver gradation automatique.</string>
+    <string name="label_nosim">Cacher Aucune icône SIM</string>
+    <string name="sum_nosim">Cacher Aucune icône SIM quand tu as Aucune icône SIM</string>
+    <string name="quick">Notification &#38;Quick Settings</string>
+    <string name="label_tranz144">Changer le nombre de rangées</string>
+    <string name="sum_tranz144">Changez le nombre de lignes et articles illimitées dans des réglages rapides.</string>
+    <string name="label_numcol">Changez le nombre de Colonnes</string>
+    <string name="sum_numcol">Changez le nombre de colonnes</string>
+    <string name="misc">Misc</string>
+    <string name="label_fullalert">Changer batterie chargée niveau d\'alerte</string>
+    <string name="sum_fullalert">Changer le niveau de batterie pour batterie chargée alerte. Cochez la case \"Lecture sonore lorsque la batterie est pleine\" dans les paramètres d\'accessibilité.</string>
+    <string name="fullalert_title">Niveau de la batterie (0 - 100)</string>
+    <string name="fullalert_summary">La valeur par défaut est de 100 (à pleine charge)</string>
+    <string name="recent">Recent</string>
+    <string name="label_closeall">Montrer Fermer bouton Tout</string>
+    <string name="sum_closeall">Activer Close All bouton dans le panneau récente.</string>
+    <string name="label_nosearchbar">Masquer widget de recherche</string>
+    <string name="sum_nosearchbar">Cacher widget de recherche dans le panneau récente.</string>
+    <string name="label_rebootaf">Note</string>
+    <string name="nosum">Vous pouvez avoir besoin de redémarrer pour que les modifications prennent effet.</string>
+    <string name="list_title">Le nombre de lignes</string>
+    <string name="list_summary">Spécifiez le nombre de lignes des réglages rapides. La valeur par défaut est 4.</string>
+    <string name="list_dialogtitle">Nombre</string>
+    <string name="list_title_numcol">Le nombre de colonnes</string>
+    <string name="list_summary_numcol">Spécifiez le nombre de colonnes des réglages rapides. La valeur par défaut est 3.</string>
+    <string name="list_dialogtitle_numcol">Nombre</string>
+</resources>

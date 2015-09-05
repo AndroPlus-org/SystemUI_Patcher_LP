@@ -3,6 +3,11 @@
     
     <item type="dimen" name="status_bar_icon_drawing_alpha">100%</item>
     <dimen name="status_bar_icon_drawing_size">21dip</dimen>
-    <dimen name="close_all_button_layout_margin_top">510.0dip</dimen>
+    <dimen name="close_all_button_layout_margin_top">480.0dip</dimen>
+    <dimen name="lifestyle_back_icn_height">0.0dip</dimen>
+    <dimen name="thumbnail_view_height">0.0dip</dimen>
+    <dimen name="thumbnail_capture_height">0.0dip</dimen>
+    <dimen name="thmbnail_text_height">0.0dip</dimen>
+    <dimen name="notification_panel_width">620.0dip</dimen>
     
 </resources>

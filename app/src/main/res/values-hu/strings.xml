@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_description">Xperia SystemUI.apk módosítás. Érintse meg a módosításhoz.</string>
+    <string name="statusbar">Állapotsáv</string>
+    <string name="label_brigi">Állapotsáv ikon fényesebben</string>
+    <string name="sum_brigi">Automatikus fényerő szabályozás tiltása.</string>
+    <string name="label_bigi">Állapotsáv ikon nagyítása</string>
+    <string name="sum_bigi">Automatikus fényerő szabályozás tiltása.</string>
+    <string name="label_nosim">Nincs SIM ikon elrejtése</string>
+    <string name="sum_nosim">Nincs SIM ikon elrejtése, amikor nincs SIM behelyezve.</string>
+    <string name="quick">Éresítés &#38; Gyors beállítások</string>
+    <string name="label_tranz144">Sorok számának változtatása</string>
+    <string name="sum_tranz144">Sorok számának változtatása és végtelen elemek a gyors beállításokban.</string>
+    <string name="label_numcol">Oszlopok számának változtatása</string>
+    <string name="sum_numcol">Oszlopok számának változtatása</string>
+    <string name="misc">Egyéb</string>
+    <string name="label_fullalert">Akku feltöltve figyelmeztetés szintjének változtatása</string>
+    <string name="sum_fullalert">Akku szint változtatása feltöltött jelzéshez. Ellenőrizze a \"Hangjelzés feltöltött akkumulátor esetén\" lehetőséget a Beállításokban.</string>
+    <string name="fullalert_title">Akku szint (0-100)</string>
+    <string name="fullalert_summary">Az alapértelmezett érték 100 (teljesen feltöltve)</string>
+    <string name="recent">ÚJ</string>
+    <string name="label_closeall">Összes bezárása gomb megjelenítése</string>
+    <string name="sum_closeall">Összes bezárása gomb megjelenítése a Legutóbbi alkalmazásokban.</string>
+    <string name="label_nosearchbar">Kereső modul elrejtése</string>
+    <string name="sum_nosearchbar">Kereső modul elrejtése a Legutóbbi alkalmazások ablakban.</string>
+    <string name="label_rebootaf">Megjegyzés</string>
+    <string name="nosum">Szükség lehet újraindításra a változások érvénybelépéséhez.</string>
+    <string name="list_title">Sorok száma</string>
+    <string name="list_summary">Válassza ki a sorok számát a gyors beállításokhoz. Alapértelmezett: 4.</string>
+    <string name="list_dialogtitle">Szám</string>
+    <string name="list_title_numcol">Oszlopok száma</string>
+    <string name="list_summary_numcol">Válassza ki a gyors beállítások oszlopainak számát. Alapértelmezés: 3.</string>
+    <string name="list_dialogtitle_numcol">Szám</string>
+    <string name="label_nodismiss">Összes elutasítása gomb tiltása</string>
+    <string name="sum_nodismiss">Összes elutasítása gomb tiltása az értesítési sávon.</string>
+</resources>
