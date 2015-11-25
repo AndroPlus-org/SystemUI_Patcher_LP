@@ -2,81 +2,46 @@
 <items version="2" >
 
     <item
-        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.2\support-annotations-21.0.2.jar"
+        jar="D:\myuser\document\GitHub\SystemUI_Patcher_LP\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
         jumboMode="false"
-        revision="22.0.0"
-        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
-        <dex dex="D:\myuser\document\GitHub\SystemUI_Patcher\app\build\intermediates\pre-dexed\release\support-annotations-21.0.2-9fc3c7de1400ed4e3c2ff4e230b8c3908f6474a5.jar" />
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="D:\myuser\document\GitHub\SystemUI_Patcher_LP\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_2f9bdbd5df970a685c2490691d51cf4b2343e325.jar" />
     </item>
     <item
-        jar="D:\myuser\document\GitHub\SystemUI_Patcher\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.2\classes.jar"
+        jar="D:\myuser\document\GitHub\SystemUI_Patcher_LP\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="false"
-        revision="21.1.1"
-        sha1="7ae2d38807a43b2f2185ff4089a92c790b579e54">
-        <dex dex="D:\myuser\document\GitHub\SystemUI_Patcher\app\build\intermediates\pre-dexed\release\classes-e50778bf74176ef78eacea287a9224c559ab20bc.jar" />
+        revision="23.0.2"
+        sha1="74207f8b88674ed0fc92f4043ee3a6a193c3531e">
+        <dex dex="D:\myuser\document\GitHub\SystemUI_Patcher_LP\app\build\intermediates\pre-dexed\debug\instant-run_0ba3101d59fce21feff1126230031c15fe1dafd4.jar" />
     </item>
     <item
-        jar="D:\myuser\document\GitHub\SystemUI_Patcher\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\libs\internal_impl-21.0.2.jar"
+        jar="D:\myuser\document\GitHub\SystemUI_Patcher_LP\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
         jumboMode="false"
-        revision="22.0.0"
-        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
-        <dex dex="D:\myuser\document\GitHub\SystemUI_Patcher\app\build\intermediates\pre-dexed\release\internal_impl-21.0.2-2ca30c4fcbabf97e49e21d0dee23cea10131bc80.jar" />
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="D:\myuser\document\GitHub\SystemUI_Patcher_LP\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_b789e3cb183878599fc33f2d805256e9576ad532.jar" />
     </item>
     <item
-        jar="D:\myuser\document\GitHub\SystemUI_Patcher\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\classes.jar"
+        jar="D:\myuser\document\GitHub\SystemUI_Patcher_LP\app\build\intermediates\incremental-classes\debug\classes.jar"
         jumboMode="false"
-        revision="22.0.0"
-        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
-        <dex dex="D:\myuser\document\GitHub\SystemUI_Patcher\app\build\intermediates\pre-dexed\release\classes-b805a43d65f47fe4fc9a23d143220fd8d398a122.jar" />
+        revision="23.0.2"
+        sha1="2ad2ff0e44baab1afd1bdec0f0e3737cf2f87aa2">
+        <dex dex="D:\myuser\document\GitHub\SystemUI_Patcher_LP\app\build\intermediates\pre-dexed\debug\classes_e9b35aa6bfbe93abe4cea65f6c744a620f39e9be.jar" />
     </item>
     <item
-        jar="D:\myuser\document\GitHub\SystemUI_Patcher_LP\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.2\classes.jar"
+        jar="D:\myuser\document\GitHub\SystemUI_Patcher_LP\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
         jumboMode="false"
-        revision="22.0.0"
-        sha1="7ae2d38807a43b2f2185ff4089a92c790b579e54">
-        <dex dex="D:\myuser\document\GitHub\SystemUI_Patcher_LP\app\build\intermediates\pre-dexed\release\classes-6a17b91a7fc270f39817911ca2ce017ba7a4f735.jar" />
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="D:\myuser\document\GitHub\SystemUI_Patcher_LP\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_0342601a3a453044ed75516086b8bd8cfbf8a5b9.jar" />
     </item>
     <item
-        jar="D:\myuser\document\GitHub\SystemUI_Patcher\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\classes.jar"
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
         jumboMode="false"
-        revision="21.1.1"
-        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
-        <dex dex="D:\myuser\document\GitHub\SystemUI_Patcher\app\build\intermediates\pre-dexed\release\classes-b805a43d65f47fe4fc9a23d143220fd8d398a122.jar" />
-    </item>
-    <item
-        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.2\support-annotations-21.0.2.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
-        <dex dex="D:\myuser\document\GitHub\SystemUI_Patcher\app\build\intermediates\pre-dexed\release\support-annotations-21.0.2-9fc3c7de1400ed4e3c2ff4e230b8c3908f6474a5.jar" />
-    </item>
-    <item
-        jar="D:\myuser\document\GitHub\SystemUI_Patcher_LP\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\libs\internal_impl-21.0.2.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
-        <dex dex="D:\myuser\document\GitHub\SystemUI_Patcher_LP\app\build\intermediates\pre-dexed\release\internal_impl-21.0.2-9a2006e28df8b3f59ab805d1f7d50fba012ce499.jar" />
-    </item>
-    <item
-        jar="D:\myuser\document\GitHub\SystemUI_Patcher_LP\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
-        <dex dex="D:\myuser\document\GitHub\SystemUI_Patcher_LP\app\build\intermediates\pre-dexed\release\classes-f7106171aa40825a34a91dfd7a26e88071626872.jar" />
-    </item>
-    <item
-        jar="D:\myuser\document\GitHub\SystemUI_Patcher\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\libs\internal_impl-21.0.2.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
-        <dex dex="D:\myuser\document\GitHub\SystemUI_Patcher\app\build\intermediates\pre-dexed\release\internal_impl-21.0.2-2ca30c4fcbabf97e49e21d0dee23cea10131bc80.jar" />
-    </item>
-    <item
-        jar="D:\myuser\document\GitHub\SystemUI_Patcher\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.2\classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="7ae2d38807a43b2f2185ff4089a92c790b579e54">
-        <dex dex="D:\myuser\document\GitHub\SystemUI_Patcher\app\build\intermediates\pre-dexed\release\classes-e50778bf74176ef78eacea287a9224c559ab20bc.jar" />
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="D:\myuser\document\GitHub\SystemUI_Patcher_LP\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_160e21806fe4fcbe2b20c34d1bbde421f69a17ae.jar" />
     </item>
 
 </items>
