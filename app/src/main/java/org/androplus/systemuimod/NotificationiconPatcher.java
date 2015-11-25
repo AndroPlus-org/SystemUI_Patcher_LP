@@ -42,7 +42,7 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 		// For change quick Settings tile text size
 		float qs_txtsize = Float.parseFloat(preference.getString("key_quick_settings_tile_text_size_i", "12.0"));
 		
-		if (!(resparam.packageName.equals("com.android.systemui")||resparam.packageName.equals("com.sonymobile.keyboardlauncher")))
+		if (!(resparam.packageName.equals("com.android.systemui")||resparam.packageName.equals("com.sonymobile.keyboardlauncher")||resparam.packageName.equals("com.android.settings")))
 			return;
 
 		if (resparam.packageName.equals("com.android.systemui")){
@@ -149,6 +149,23 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 
 		}//End
 		
+		// Settings
+		if (resparam.packageName.equals("com.android.settings")){
+		XModuleResources modRes = XModuleResources.createInstance(MODULE_PATH, resparam.res);
+
+		// Use locale specific sorting style
+		boolean isLsss = preference.getBoolean("key_locale_specific_sorting_style", false);
+
+		if(isLsss){
+			try {
+			resparam.res.setReplacement("com.android.settings", "bool", "config_localeUseSingleSortOrder", true);
+			} catch (Throwable t) {
+			XposedBridge.log(t.getMessage());
+			}
+		}
+
+		}//End
+		
 	}
 
 
@@ -172,7 +189,7 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 		} catch (Throwable t) {
 			XposedBridge.log(t.getMessage());
 		}
-		}
+	}
 
 	// Hide No SIM icon
 	boolean isNosim = preference.getBoolean("key_nosim", false);
@@ -187,9 +204,8 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 		} catch (Throwable t) {
 			XposedBridge.log(t.getMessage());
 		}
-		}
-		
-		
+	}
+
 	}; //handleLoadPackage
 
 

@@ -43,4 +43,6 @@
     <string name="sum_quick_settings_tile_text_size_i">Specify dpi of the label text size for quick settings tiles. If you input 0.0, label text will be hidden. Default value is 12.0.</string>
     <string name="label_hide_thumb_keyboard_launcher">More space for Keyboard Launcher</string>
     <string name="sum_hide_thumb_keyboard_launcher">Hide unnecessary image in recent apps of Keyboard Launcher to give more space for app list.</string>
+    <string name="label_locale_specific_sorting_style">Use locale specific sorting style</string>
+    <string name="sum_locale_specific_sorting_style">Use locale specific sorting style. (e.g. Use あ行 instead of あ,い,う,え,お for Japanese)</string>
 </resources>

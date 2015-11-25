@@ -125,6 +125,12 @@
 	    android:title="@string/label_hide_thumb_keyboard_launcher"
 	    android:summary="@string/sum_hide_thumb_keyboard_launcher"
 	    android:defaultValue="false" />
+	    
+	    <CheckBoxPreference
+	    android:key="key_locale_specific_sorting_style"
+	    android:title="@string/label_locale_specific_sorting_style"
+	    android:summary="@string/sum_locale_specific_sorting_style"
+	    android:defaultValue="false" />
 
 	<Preference android:key="mes" android:title="@string/app_name" android:summary="@string/mesum">
             <intent android:action="android.intent.action.VIEW"
